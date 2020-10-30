@@ -54,3 +54,75 @@ h5 {
 a[h1] {
     border: 5px solid black;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #816c28;
+}
+
+header:after {
+    content: ''; 
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav{
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+nav a:hover {
+    color: #000
+}
+
+article {
+    background: rgb(168, 139, 42);
+    padding: 20px;
+    margin: 20px
+}
+
+footer {
+    background: rgb(132, 134, 106);
+}
+
+.right {
+    float: right;
+}
+
+
+.columns div {
+width: 50%;
+padding: .5em;
+
+}
