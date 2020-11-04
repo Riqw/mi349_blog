@@ -10,6 +10,12 @@ border-top: 10px solid #242424;
 background: rgb(187, 165, 41);
 }
 
+@media (max-width: 400px) {
+    #blog {
+        background: blue;
+    }
+}
+
 h1 {
 font-size: 3em;
 margin: 0;
